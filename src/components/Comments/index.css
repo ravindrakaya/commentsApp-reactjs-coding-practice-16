@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  padding-left: 55px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.responsive-container {
+  width: 80%;
+  max-width: 1140px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+.image {
+  height: 250px;
+  width: 300px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.paragraph {
+  font-family: 'Roboto';
+  color: #475569;
+}
+.text-input {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #0284c7;
+  border-radius: 5px;
+  outline: none;
+}
+.text-area-field {
+  border: 1px solid #0284c7;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 100px;
+  width: 300px;
+  padding: 15px;
+  outline: none;
+}
+.button {
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+}
+.head-rise {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+  margin-right: 20px;
+}
+.comment-para {
+  font-family: 'Roboto';
+  color: #334155;
+  margin-left: 10px;
+}
+.comment-count {
+  border: 1px solid #0ea5e9;
+  background-color: #0ea5e9;
+  outline: none;
+  color: #ffffff;
+  padding: 5px;
+  height: 5px;
+  width: 5px;
+}
+.comments-list-container {
+    list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image {
+    order: 1;
+    margin-right: 40%;
+  }
+}
